@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="ABOUT THE GAME"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="PHILIPPINE HISTORY QUIZ GAME"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:text="is a project application in partial requirement for the subjects Software Engineering and BSCOE ELECTIVES 4. This project was created by the 5th Year students of PUP Sta. Mesa, Vince R. Casimiro and Janzzen Mitz Rogelle D. Cuentas from Bachelor of Science in Computer Engineering."
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:text="This project aims to educate the Filipinos in the history of the Philippines thru different kinds of games. This application was inspired by various educational games like Mind Games and Quiz: Logo Game."
+        android:textColor="#143372"
+        android:textSize="20sp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="THANK YOU AND HAVE FUN PLAYING THE GAME!"
+        android:textColor="#143372"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/btnMainMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bgpurple"
+        android:gravity="center"
+        android:text="MAIN MENU"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+</LinearLayout>

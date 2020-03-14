@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/bgapp"
+    tools:context=".MysteryRoundSelectLevelActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="MYSTERY ROUND - SELECT LEVEL"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/mysteryround"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/btnPUPRelated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bgpurple"
+        android:gravity="center"
+        android:text="P.U.P. RELATED"
+        android:textColor="#000000"
+        android:textSize="23sp" />
+
+    <Button
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/btnPHHistoryRelated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bgpurple"
+        android:gravity="center"
+        android:text="PHILIPPINE HISTORY RELATED"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/btnMainMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bgpurple"
+        android:gravity="center"
+        android:text="MAIN MENU"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+</LinearLayout>
