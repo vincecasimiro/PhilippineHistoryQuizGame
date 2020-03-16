@@ -79,7 +79,7 @@ public class QuestionActivityPUPRelatedMysteryRound extends Activity {
             startActivity(intent);
             finish();
         }
-        if (qid < 12) {
+        if (qid < 13) {
 // if questions are not over then do this
             currentQ = quesList.get(qid);
             setQuestionView();
