@@ -45,18 +45,36 @@ public class QuizHelperPUPRelatedMysteryRound extends SQLiteOpenHelper {
         Question q2 = new Question("How many campuses does PUP have?", "17", "19", "21",
                 "21"); //Answer:C
         this.addQuestion(q2);
-        Question q3 = new Question("He is considered as the \"Hero of the Battle of Tirad Pass\".", "Gregorio del Pilar", "Antonio Luna", "Emilio Jacinto",
-                "Gregorio del Pilar"); //Answer: A
+        Question q3 = new Question("She is the First Transwoman Valedictorian of the Polytechnic University of the Philippines.", "Ianne Gamboa", "Gretchen Diez", "Jess Labares",
+                "Ianne Gamboa"); //Answer: A
         this.addQuestion(q3);
-        Question q4 = new Question("The EDSA Revolution I or what we call People Power Revolution is celebrated on what date?", "February 18", "February 25", "February 22",
-                "February 25"); //Answer: B
+        Question q4 = new Question("She is the current Dean of the College of Engineering.", "Engr. Florinda Oquindo", "Dr. Remedios Ado", "Dr. Zenaida Sarmiento",
+                "Dr. Remedios Ado"); //Answer: B
         this.addQuestion(q4);
-        Question q5 = new Question("Where was the Death March ended?", "Tarlac", "Nueva Ecija", "Pampanga",
-                "Tarlac"); //Answer: A
+        Question q5 = new Question("What is the hashtag for the Mr. and Ms. PUP Engineering when it was canceled in 2017 due to EJK-themed photo shoot?", "#EmbraceYourFlaws", "#StepOutoftheDark", "#DisplayYourself",
+                "#EmbraceYourFlaws"); //Answer: A
         this.addQuestion(q5);
-        Question q6 = new Question("He was the first Filipino president in the history to swear on the bible and wear Barong Tagalog during inaguration.", "Elpidio Quirino", "Carlos P. Garcia", "Ramon Magsaysay",
-                "Ramon Magsaysay"); //Answer: C
+        Question q6 = new Question("From the year 2015 to 2020, the Computer Engineering Department has garnered _ championship trophies in the College of Engineering Week.", "4", "2", "3",
+                "3"); //Answer: C
         this.addQuestion(q6);
+        Question q7 = new Question("FEWA is a delicious food and considered as PUPian's favorite. What does FEWA mean?", "Footlong with Egg Wrapped Around", "Fish with Egg Wrapped Around", "Fried Egg Wrapped Around",
+                "Footlong with Egg Wrapped Around"); //Answer: A
+        this.addQuestion(q7);
+        Question q8 = new Question("The Vivo Campus Invasion was an event held at the PUP Gymnasium in 2017, but later on, got canceled. What is the reason?", "The organizers felt tired", "Stampede at the entrance", "A fire broke out",
+                "Stampede at the entrance"); //Answer: B
+        this.addQuestion(q8);
+        Question q9 = new Question("The PUP Pylon symbolizes what?", "Reputation, Peace, Order", "Strength, Perseverance, Respect", "Truth, Excellence, Wisdom",
+                "Truth, Excellence, Wisdom"); //Answer: C
+        this.addQuestion(q9);
+        Question q10 = new Question("He is the current President of the Polytechnic University of the Philippines.", "Dr. Emanuel C. de Guzman", "Dr. Manuel M. Muhi", "Dr. Nemesio E. Prudente",
+                "Dr. Manuel M. Muhi"); //Answer: B
+        this.addQuestion(q10);
+        Question q11 = new Question("The students, faculty, staff, and alumni broke this world record in the centennial year of PUP. What is the record?", "World's Biggest University", "World's Oldest University", "World's Largest Human Rainbow",
+                "World's Largest Human Rainbow"); //Answer: C
+        this.addQuestion(q11);
+        Question q12 = new Question("The Pylon Run is a famous event held annually during the university's founding anniversary. What is Pylon Run?", "Male members running naked", "Male members running with a Pylon costume", "Male members running towards the Pylon",
+                "Male members running naked"); //Answer: A
+        this.addQuestion(q12);
 // END
     }
     @Override

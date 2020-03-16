@@ -13,7 +13,7 @@ public class QuestionActivityPUPRelatedMysteryRound extends Activity {
 
     //Mystery Round Questions//
     List<Question> quesList;
-    int score = 0;
+    int score = 2;
     int qid = 0;
     Question currentQ;
     TextView txtQuestion, times, scored;
@@ -79,7 +79,7 @@ public class QuestionActivityPUPRelatedMysteryRound extends Activity {
             startActivity(intent);
             finish();
         }
-        if (qid < 6) {
+        if (qid < 12) {
 // if questions are not over then do this
             currentQ = quesList.get(qid);
             setQuestionView();
