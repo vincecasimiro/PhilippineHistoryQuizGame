@@ -48,25 +48,20 @@ public class QuizHelperFITBAverage extends SQLiteOpenHelper {
         Question q3 = new Question("Andres Bonifacio and his brothers are executed at Mt. Buntis on _____ 10, 1897.", "May", "October", "March",
                 "May"); //Answer: A
         this.addQuestion(q3);
-        Question q4 = new Question("I am the childhood sweetheart of Jose Rizal.\n" +
-                "Who am I?", "Marina Dizon", "Segunda Katigbak", "Gregoria de Jesus",
-                "Segunda Katigbak"); //Answer: B
+        Question q4 = new Question("Diego Silang died on May 28, ____.", "1762", "1763", "1764",
+                "1763"); //Answer: B
         this.addQuestion(q4);
-        Question q5 = new Question("I am a former President of the USA who appointed Gen. MacArthur to rule and govern the Philippines.\n" +
-                "Who am I?", "George Washington", "Dwight D. Eisenhower", "William Howard Taft",
-                "William Howard Taft"); //Answer: C
+            Question q5 = new Question("In September 1763, ________ was executed, the only Filipina to have led a revolt.", "Segunda Katigbak", "Josefa Llanes Escoda", "Gabriela Silang",
+                "Gabriela Silang"); //Answer: C
         this.addQuestion(q5);
-        Question q6 = new Question("I am the one who wrote the Kartilya that includes the fundamental teachings of the Katipunan.\n" +
-                "Who am I?", "Emilio Jacinto", "Gregorio del Pilar", "Apolinario Mabini",
-                "Emilio Jacinto"); //Answer: A
+        Question q6 = new Question("______ granted Royal Title by King Charles III of Spain on May 20, 1785.", "University of Santo Tomas", "De La Salle University", "Centro Escolar University",
+                "University of Santo Tomas"); //Answer: A
         this.addQuestion(q6);
-        Question q7 = new Question("I am the first Chief Justice that was removed from office by an impeachment case.\n" +
-                "Who am I?", "Hilario Davide", "Ma. Lourdes Sereno", "Renato Corona",
-                "Renato Corona"); //Answer: C
+        Question q7 = new Question("The ____ is the first election held in country's electoral history where Emilio Aguinaldo is elected as president.", "Cry of Pugad Lawin", "Biak-na-Bato", "Tejeros Convention",
+                "Tejeros Convention"); //Answer: C
         this.addQuestion(q7);
-        Question q8 = new Question("I am the composer of the Philippine National Anthem, Lupang Hinirang.\n" +
-                "Who am I?", "Ador De Leon", "Julian Felipe", "Jose Palma",
-                "Julian Felipe"); //Answer: B
+        Question q8 = new Question("The __ Martyrs of Cavite were Filipino patriots in Cavite who were executed for cooperating with the Katipunan.", "12", "13", "9",
+                "13"); //Answer: B
         this.addQuestion(q8);
 // END
     }

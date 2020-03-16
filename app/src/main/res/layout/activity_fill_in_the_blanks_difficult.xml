@@ -90,7 +90,7 @@
                     android:layout_marginTop="5dp"
                     android:gravity="center"
                     android:background="@drawable/bgquestion"
-                    android:text="________ secretly established the Katipunan in 1892."
+                    android:text="The country's first local newspaper, _______ is established."
                     android:textColor="#000000"
                     android:textSize="24sp"
                     android:textStyle="bold" />
@@ -113,7 +113,7 @@
                     android:layout_marginTop="30dp"
                     android:background="@drawable/bgpurple"
                     android:gravity="center"
-                    android:text="Emilio Jacinto"
+                    android:text="El Filipino"
                     android:textColor="#000000"
                     android:textSize="25sp" />
                 <Button
@@ -128,7 +128,7 @@
                     android:layout_marginTop="25dp"
                     android:background="@drawable/bgpurple"
                     android:gravity="center"
-                    android:text="Marcelo H. Del Pilar"
+                    android:text="El Liga Filipina"
                     android:textColor="#000000"
                     android:textSize="25sp" />
                 <Button
@@ -143,7 +143,7 @@
                     android:layout_marginTop="25dp"
                     android:background="@drawable/bgpurple"
                     android:gravity="center"
-                    android:text="Andres Bonifacio"
+                    android:text="El Ilocano"
                     android:textColor="#000000"
                     android:textSize="25sp" />
             </LinearLayout>

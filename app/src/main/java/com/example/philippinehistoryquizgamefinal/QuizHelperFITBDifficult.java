@@ -39,8 +39,8 @@ public class QuizHelperFITBDifficult extends SQLiteOpenHelper {
 // db.close();
     }
     private void addQuestion() {
-        Question q1 = new Question("The date when the Philippines won over the arbitration case regarding the West Philippine Sea on the Permanent Court of Arbitration against China.", "July 11, 2016", "July 14, 2016", "July 12, 2016",
-                "July 12, 2016"); //Answer: C
+        Question q1 = new Question("The country's first local newspaper, _______ is established.", "El Filipino", "El Liga Filipina", "El Ilocano",
+                "El Ilocano"); //Answer: C
         this.addQuestion(q1);
         Question q2 = new Question("After the death of her husband Andres Bonifacio, Gregoria de Jesus was later married to whom?", "Julio Nakpil", "Felipe Calderon", "Francisco Trinidad",
                 "Julio Nakpil"); //Answer: A
