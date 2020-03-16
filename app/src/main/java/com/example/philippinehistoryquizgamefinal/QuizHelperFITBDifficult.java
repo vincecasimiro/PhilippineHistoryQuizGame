@@ -42,41 +42,41 @@ public class QuizHelperFITBDifficult extends SQLiteOpenHelper {
         Question q1 = new Question("The country's first local newspaper, _______ is established.", "El Filipino", "El Liga Filipina", "El Ilocano",
                 "El Ilocano"); //Answer: C
         this.addQuestion(q1);
-        Question q2 = new Question("After the death of her husband Andres Bonifacio, Gregoria de Jesus was later married to whom?", "Julio Nakpil", "Felipe Calderon", "Francisco Trinidad",
-                "Julio Nakpil"); //Answer: A
+        Question q2 = new Question("The First Republic in the Philippines is known as _______ where Aguinaldo is the first President of the Philippines.", "The Malolos Republic", "The Kawit Republic", "The Manila Republic",
+                "The Malolos Republic"); //Answer: A
         this.addQuestion(q2);
-        Question q3 = new Question("When did the Battle of Pinaglabanan happened?", "1894", "1896", "1898",
-                "1896"); //Answer: B
+        Question q3 = new Question("The Philippine Flag was first flown in battle on May 28, ____.", "1894", "1898", "1902",
+                "1898"); //Answer: B
         this.addQuestion(q3);
-        Question q4 = new Question("What is the mission of Battle of Pinaglabanan?", "To overthrow the Spaniards", "To seize the reservoir and gunpowder depot", "To find a new hideout",
-                "To seize the reservoir and gunpowder depot"); //Answer: B
+        Question q4 = new Question("The ______ was a gendarmerie-type police force of the Philippines that was created to replace Guardia Civil.", "Philippine Troops", "Philippine Constabulary", "Philippine Police Force",
+                "Philippine Constabulary"); //Answer: B
         this.addQuestion(q4);
-        Question q5 = new Question("The Plaza Miranda Bombing happened in what year?", "1971", "1963", "1969",
-                "1971"); //Answer: A
+        Question q5 = new Question("The _____ Massacre is famous for the Americans' worst single defeat.", "Balangiga", "Cabanatuan", "Bataan",
+                "Balangiga"); //Answer: A
         this.addQuestion(q5);
-        Question q6 = new Question("What was the name of the Filipino soldier who led the Cavite Mutiny of 1872?", "Gen. Mariano Noriel", "Lt. Taviel de Andrade", "Sergeant Lamadrid",
-                "Sergeant Lamadrid"); //Answer: C
+        Question q6 = new Question("_____ establishes a second Tagalog Republic on May 2, 1902.", "Miguel Malvar", "Simeon Ola", "Macario Sakay",
+                "Macario Sakay"); //Answer: C
         this.addQuestion(q6);
-        Question q7 = new Question("The newspaper established by Marcelo H. del Pilar which served as a propaganda material for the reformists.", "Diariong Tagalog", "La Solidaridad", "La Liga Filipina",
-                "Diariong Tagalog"); //Answer: A
+        Question q7 = new Question("The _______ is passed establishing an all-Filipino legislature.", "Jones Act", "Tydings-Mcduffie Act", "Treaty of Paris",
+                "Jones Act"); //Answer: A
         this.addQuestion(q7);
-        Question q8 = new Question("Who is the first Chief Justice who was removed from office by an impeachment case?", "Cayetano Arellano", "Renato Corona", "Ma. Lourdes Sereno",
-                "Renato Corona"); //Answer: B
+        Question q8 = new Question("The _______ is known as the Philippine Independence Law.", "Hare-Hawes-Cutting Act", "Tydings-Mcduffie Act", "Philippine Organic Act",
+                "Tydings-Mcduffie Act"); //Answer: B
         this.addQuestion(q8);
-        Question q9 = new Question("The newspaper established by Marcelo H. del Pilar which served as a propaganda material for the reformists.", "Diariong Tagalog", "La Solidaridad", "La Liga Filipina",
-                "Diariong Tagalog"); //Answer: A
+        Question q9 = new Question("The National Defense Act of 1935 was signed that creates ________.", "Armed Forces of the Philippines", "Philippine National Police", "Philippine Air Force",
+                "Armed Forces of the Philippines"); //Answer: A
         this.addQuestion(q9);
-        Question q10 = new Question("Who is the first Chief Justice who was removed from office by an impeachment case?", "Cayetano Arellano", "Renato Corona", "Ma. Lourdes Sereno",
-                "Renato Corona"); //Answer: B
+        Question q10 = new Question("The _______ is considered to have been the largest naval battle of World War II.", "Battle of Corregidor", "Battle of Leyte Gulf", "Battle of Manila",
+                "Battle of Leyte Gulf"); //Answer: B
         this.addQuestion(q10);
-        Question q11 = new Question("He exercises all executive, legislative and judicial powers in the small communities during the pre-colonial era.", "Babaylan", "Timawa", "Datu",
-                "Datu"); //Answer: C
+        Question q11 = new Question("General MacArthur announced the liberation of the Philippines on ______.", "July 3, 1945", "July 4, 1945", "July 5, 1945",
+                "July 5, 1945"); //Answer: C
         this.addQuestion(q11);
-        Question q12 = new Question("Written on this famous work by Emilio Jacinto are the fundamental teachings of the Katipunan.", "Kartilya", "La Esperanza", "La Solidaridad",
-                "Kartilya"); //Answer: A
+        Question q12 = new Question("_____ is the last Japanese soldier to come out of hiding and surrender, almost 30 years after the end of the Second World War.", "Hiroo Onoda", "Tomoyuki Yamashita", "Shigenori Kuroda",
+                "Hiroo Onoda"); //Answer: A
         this.addQuestion(q12);
-        Question q13 = new Question("Who was called \"The First Filipino Diplomat\" ?", "Miguel Cuaderno", "Felipe Agoncillo", "Robert Cortez",
-                "Felipe Agoncillo"); //Answer: B
+        Question q13 = new Question("The newly-formed _______ is declared capital of the Philippines by Pres. Quirino (Republic Act No.333) in July 1948.", "Makati City", "Quezon City", "Manila City",
+                "Quezon City"); //Answer: B
         this.addQuestion(q13);
 // END
     }
