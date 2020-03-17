@@ -158,7 +158,6 @@ public class GameListActivity extends AppCompatActivity {
                 mServ.pauseMusic();
             }
         }
-
     }
 
     @Override
