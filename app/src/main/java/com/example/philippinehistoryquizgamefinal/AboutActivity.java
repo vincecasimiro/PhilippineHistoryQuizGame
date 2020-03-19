@@ -15,15 +15,15 @@ import androidx.appcompat.app.AppCompatActivity;
 public class AboutActivity extends AppCompatActivity {
 
     //ABOUT MENU//
-    Button btnMainMenu;
     HomeWatcher mHomeWatcher;
+    Button btnMainMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
 
-        //BIND music service
+        //Bind music service
         doBindService();
         Intent music = new Intent();
         music.setClass(this, MusicService.class);
@@ -37,6 +37,7 @@ public class AboutActivity extends AppCompatActivity {
                     mServ.pauseMusic();
                 }
             }
+
             @Override
             public void onHomeLongPressed() {
                 if (mServ != null) {

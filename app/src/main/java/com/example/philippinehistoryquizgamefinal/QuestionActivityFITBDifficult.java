@@ -159,7 +159,7 @@ public class QuestionActivityFITBDifficult extends Activity {
         music.setClass(this,MusicService.class);
         stopService(music);
     }
-    
+
     public void getAnswer(String AnswerString) {
         if (currentQ.getANSWER().equals(AnswerString)) {
 // if conditions matches increase the int (score) by 1

@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:text="Large Text"
         android:textColor="#ffffff"
-        android:textSize="20sp"
+        android:textSize="30sp"
         android:padding="10dp"
         android:textStyle="bold" />
 
