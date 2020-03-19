@@ -19,7 +19,7 @@ public class QuestionActivityPUPRelatedMysteryRound extends Activity {
     //Mystery Round Questions//
     HomeWatcher mHomeWatcher;
     List<Question> quesList;
-    int score = 2;
+    int score = 0;
     int qid = 0;
     Question currentQ;
     TextView txtQuestion, times, scored;
