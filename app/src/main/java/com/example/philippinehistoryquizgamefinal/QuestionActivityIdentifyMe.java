@@ -1,11 +1,15 @@
 package com.example.philippinehistoryquizgamefinal;
 
+import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.IBinder;
 import android.os.PowerManager;
 import android.view.View;
@@ -13,6 +17,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class QuestionActivityIdentifyMe extends Activity {
 
@@ -50,9 +55,14 @@ public class QuestionActivityIdentifyMe extends Activity {
         button3 = (Button) findViewById(R.id.button3);
 // the textview in which score will be displayed
         scored = (TextView) findViewById(R.id.score);
-
+// the timer
+        times = (TextView) findViewById(R.id.timers);
 // method which will set the things up for our game
         setQuestionView();
+        times.setText("00:00:30");
+// A timer of 60 seconds to play for, with an interval of 1 second (1000 milliseconds)
+        CounterClass timer = new CounterClass(30000, 1000);
+        timer.start();
 // button click listeners
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -191,6 +201,42 @@ public class QuestionActivityIdentifyMe extends Activity {
             intent.putExtras(b); // Put your score to your next
             startActivity(intent);
             finish();
+        }
+    }
+
+    @TargetApi(Build.VERSION_CODES.GINGERBREAD)
+    @SuppressLint("NewApi")
+    public class CounterClass extends CountDownTimer {
+        public CounterClass(long millisInFuture, long countDownInterval) {
+            super(millisInFuture, countDownInterval);
+// TODO Auto-generated constructor stub
+        }
+        @Override
+        public void onFinish() {
+            times.setText("Time is up");
+            Intent intent = new Intent(QuestionActivityIdentifyMe.this,
+                    ResultActivity.class);
+            Bundle b = new Bundle();
+            b.putInt("score", score); // Your score
+            intent.putExtras(b); // Put your score to your next
+            startActivity(intent);
+            finish();
+        }
+        @Override
+        public void onTick(long millisUntilFinished) {
+// TODO Auto-generated method stub
+            long millis = millisUntilFinished;
+            String hms = String.format(
+                    "%02d:%02d:%02d",
+                    TimeUnit.MILLISECONDS.toHours(millis),
+                    TimeUnit.MILLISECONDS.toMinutes(millis)
+                            - TimeUnit.HOURS.toMinutes(TimeUnit.MILLISECONDS
+                            .toHours(millis)),
+                    TimeUnit.MILLISECONDS.toSeconds(millis)
+                            - TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS
+                            .toMinutes(millis)));
+            System.out.println(hms);
+            times.setText(hms);
         }
     }
 
